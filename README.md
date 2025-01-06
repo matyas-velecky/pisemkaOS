@@ -19,4 +19,20 @@
       - problém s teplotou (moc rychlé kvůli *nand technologii*, doporučuje se aktivní ne pasivní chlazení)
     - **ssd omezení**
       - životnost (+- 100 000 zápisů na buňku)
-      - 
+    - **realokace**
+      - disk vyůžívá pouze 95% prostoru
+      - když je vadný sektor tak disk realokuje data na sektoru vadném do jednoho sektoru ze zbylích 5% - **hdd**
+      - když odejde kus **ssd** je čitelný pokud neodejde *master boot record* jinak je nečitelný 
+    - **žurnálovací a nežurnálovací systémi**
+      - slovo pacházející s knihovnictví
+      - řadí pouze tehdy když má čas (žurnálovací)
+      - Windows má *žurnálovací systém MTFS* a *nežurnálovací systém FAT*
+      - **nežurnálovací systém**
+        - když v nežurnálovacím systému vytvoříte mnoho malých souborů systém ho uloží na určitou adresu a zbytek nechá prázdný
+        - pro kontrolu disku na windows *chkdsk*(checkdisk) na linuxu *fsck.vfat*(filesectorcheck)
+        - FAT, EXT 2(dost rychlý)
+      - **žurnálovací systém**
+        - NTFS, EXT (3 a více), REISEFS (*nezabíjej svojí manželku pokud neděláš něco komunitně -Grussy 2025*), BTRFS (v linuxu určen pro ssd)
+    - **raid**
+      - ZFS (firma sun) - Z nazačátku symbolizuje že lze použít kompressy (např. když máš hodně textových souborů tak je to zkomprimuje)
+      -  
