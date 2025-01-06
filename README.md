@@ -51,3 +51,8 @@
           - mám dva disky které my vztvářejí součet který je kopírován na další 2
           -  můžeme z toho vymáčknout 4x Read a 2x Writte
     - **S.M.A.R.T.**
+    - **balíčkovací systém**
+        - sudo apt update
+        - sudo apt upgrade
+        - *aktualizace balíčků třetích stran*
+            - /etc/apt/sources
