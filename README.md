@@ -15,7 +15,9 @@
     - *sata* (port)
       - omezený max 600 MB/s[
     - *PCIex5*
-      - přenosová rychlost 14 000MB/s pro čtení a 7 000MB/s pro zápis
+      - přenosová rychlost 14 000MB/s pro čtení a 7 000MB/s pro zápis- kombinace sestému 1 a 0
+          - mám dva disky které my vztvářejí součet který je kopírován na další 2
+          -  
       - problém s teplotou (moc rychlé kvůli *nand technologii*, doporučuje se aktivní ne pasivní chlazení)
     - **ssd omezení**
       - životnost (+- 100 000 zápisů na buňku)
@@ -35,4 +37,17 @@
         - NTFS, EXT (3 a více), REISEFS (*nezabíjej svojí manželku pokud neděláš něco komunitně -Grussy 2025*), BTRFS (v linuxu určen pro ssd)
     - **raid**
       - ZFS (firma sun) - Z nazačátku symbolizuje že lze použít kompressy (např. když máš hodně textových souborů tak je to zkomprimuje)
-      -  
+      - zbytek funguje jako paměť
+      - **raid 0**
+          - když mám 2 disky budu mít součet disků
+      - **raid 1**
+          - (mirror) kopíruje disk 
+      - **raid 5**
+          - součet všech disků -1 disk který s dělá kontrolní součet
+      - **raid 6**
+          - to stejné co 5 ale můžeš si určit kolik disků může "odpadnout"
+      - **raid 10**
+          - kombinace sestému 1 a 0
+          - mám dva disky které my vztvářejí součet který je kopírován na další 2
+          -  můžeme z toho vymáčknout 4x Read a 2x Writte
+    - **S.M.A.R.T.**
