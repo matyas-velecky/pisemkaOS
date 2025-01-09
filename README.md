@@ -16,7 +16,7 @@
       - omezený max 600 MB/s[
     - *PCIex5*
       - přenosová rychlost 14 000MB/s pro čtení a 7 000MB/s pro zápis
-          -  
+           
       - problém s teplotou (moc rychlé kvůli *nand technologii*, doporučuje se aktivní ne pasivní chlazení)
     - **ssd omezení**
       - životnost (+- 100 000 zápisů na buňku)
