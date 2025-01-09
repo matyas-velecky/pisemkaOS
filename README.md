@@ -27,7 +27,7 @@
     - **žurnálovací a nežurnálovací systémi**
       - slovo pacházející s knihovnictví
       - řadí pouze tehdy když má čas (žurnálovací)
-      - Windows má *žurnálovací systém MTFS* a *nežurnálovací systém FAT*
+      - Windows má *žurnálovací systém NTFS* a *nežurnálovací systém FAT*
       - **nežurnálovací systém**
         - když v nežurnálovacím systému vytvoříte mnoho malých souborů systém ho uloží na určitou adresu a zbytek nechá prázdný
         - pro kontrolu disku na windows *chkdsk*(checkdisk) na linuxu *fsck.vfat*(filesectorcheck)
