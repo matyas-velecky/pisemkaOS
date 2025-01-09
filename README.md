@@ -15,8 +15,7 @@
     - *sata* (port)
       - omezený max 600 MB/s[
     - *PCIex5*
-      - přenosová rychlost 14 000MB/s pro čtení a 7 000MB/s pro zápis- kombinace sestému 1 a 0
-          - mám dva disky které my vztvářejí součet který je kopírován na další 2
+      - přenosová rychlost 14 000MB/s pro čtení a 7 000MB/s pro zápis
           -  
       - problém s teplotou (moc rychlé kvůli *nand technologii*, doporučuje se aktivní ne pasivní chlazení)
     - **ssd omezení**
